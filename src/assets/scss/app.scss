@@ -1,0 +1,12 @@
+@use './../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+@use "./partials/_variables.scss" as *;
+
+body {
+    background-color: $bg_body;
+    color: $light;
+    font-family: monospace;
+    overflow-x: hidden;
+    cursor: url(./../img/dec/neonGreen_cursor_.svg), auto;
+}
+
