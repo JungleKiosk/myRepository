@@ -28,7 +28,7 @@
 
         <span>+39 3311874661</span> <br>
         <span>eso.fra24@gmail.com</span>
-
+        
       </div>
 
     </div>
@@ -45,7 +45,7 @@ ul li {
 }
 
 #footer{
-  height: 500px;
+  height: 400px;
 }
 
 @media (max-width: 786px) {
