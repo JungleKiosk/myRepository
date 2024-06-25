@@ -40,7 +40,7 @@ export default {
 <template>
     <div class="text-center">
         <div class="slider-container">
-            <div ref="slider" class="slider">
+            <div ref="slider" class="slider m-5">
                 <div
                     class="slide"
                     v-for="(imgproj, index) in imgProj"

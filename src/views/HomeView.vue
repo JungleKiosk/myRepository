@@ -36,10 +36,8 @@ export default {
         <section class="jumbotron">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 text-center">
-                        <img src="../assets/img/fw_logo.svg" class="text-center" alt="">
-                    </div>
                     <div class="col-12 col-lg-12 align-content-center introduce">
+                        
                         <div class="jumbotron p-5 rounded-3">
                             <div class="container">
                                 <h1 id="intro-title" class="display-1 txt_glow">My Repository</h1>
@@ -71,6 +69,7 @@ export default {
             </div>
         </section>
     </main>
+    <Slider></Slider>
     <Footer></Footer>
 </template>
 
