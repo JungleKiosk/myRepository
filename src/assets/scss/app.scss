@@ -1,12 +1,28 @@
 @use './../../../node_modules/bootstrap/scss/bootstrap.scss';
 
 @use "./partials/_variables.scss" as *;
+@use "./partials/_about.scss";
 
 body {
     background-color: $bg_body;
     color: $light;
     font-family: monospace;
     overflow-x: hidden;
-    cursor: url(./../img/dec/neonGreen_cursor_.svg), auto;
 }
 
+.btn_bg_green {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .btn_bg_green:hover {
+    color: $glow;
+    text-decoration:underline;
+  }
+
+  .txt_glow{
+    color: $glow;
+  }
