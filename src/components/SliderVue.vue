@@ -39,6 +39,7 @@ export default {
 
 <template>
     <div class="text-center">
+        <h1>my Stack</h1>
         <div class="slider-container">
             <div ref="slider" class="slider m-5">
                 <div

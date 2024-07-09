@@ -31,6 +31,11 @@
     },
     {
         "id": 6,
+        "num_tutorial": "🏔️RUSLE",
+        "link": "https://junglekiosk.github.io/rusle/"
+    },
+    {
+        "id": 6,
         "num_tutorial": "💧FREEWAT-Q3",
         "link": "https://junglekiosk.github.io/Freewat_GettingStarted/getstart"
     }
