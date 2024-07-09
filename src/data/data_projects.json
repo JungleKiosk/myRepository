@@ -38,5 +38,10 @@
         "id": 7,
         "num_tutorial": "💧FREEWAT-Q3",
         "link": "https://junglekiosk.github.io/Freewat_GettingStarted/getstart"
+    },
+    {
+        "id": 8,
+        "num_tutorial": "🌻PySonneblume",
+        "link": "https://github.com/JungleKiosk/sonneblume/blob/main/sonneblume.ipynb"
     }
 ]

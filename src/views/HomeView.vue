@@ -52,7 +52,7 @@ export default {
                                     address environmental challenges and improve the sustainability of natural
                                     resources.</p>
                                <!-- <a class="btn btn-primary btn-lg" href="#projects" role="button">Read more</a> -->
-                                <p class="text-center"> <br> <br>Visit the links below and discover the projects 👇</p>
+                                <p class="text-center"> <br> <br>👇 Visit the links below and discover the projects 👇</p>
                             </div>
                         </div>
                     </div>
@@ -83,11 +83,13 @@ export default {
 }
 
 a {
-    color: rgb(255, 255, 255);
+    color: #00fbd5;;
+    text-decoration:none;
 }
 
 a:hover {
-    color: #00fbd5;
+    color: #fbff00;
+    text-decoration:underline;
 }
 
 /* Stile di default per display-1 */
