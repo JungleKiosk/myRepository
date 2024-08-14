@@ -48,5 +48,10 @@
         "id": 9,
         "num_tutorial": "🍃VueLeaflet",
         "link": "https://junglekiosk.github.io/VueLeaflet/"
+    },
+    {
+        "id": 10,
+        "num_tutorial": "♻️bioNRG",
+        "link": "https://bionrg-e12278c8d402.herokuapp.com/"
     }
 ]
