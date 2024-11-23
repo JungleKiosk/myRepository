@@ -40,56 +40,52 @@ export default {
                         
                         <div class="jumbotron p-5 rounded-3">
                             <div class="container">
-                                <h1 id="intro-title" class="display-1 txt_glow">My Repository</h1>
-                                <p class="lead">
-                                    Welcome to the collection of my projects dedicated to environmental, agronomic,
-                                    forestry and hydrogeological analysis. <br> Using tools such as QGIS, GRASS, Python,
-                                    RStudio, and Google Earth Engine, these projects aim to provide innovative solutions
-                                    for land and natural resource management analysis.
-                                </p>
+                                <h1 id="intro-title" class="display-1 txt_glow">myProjects</h1>
                                 <hr class="mt-4">
-                                <p>Explore the projects to discover how geospatial technologies can be applied to
-                                    address environmental challenges and improve the sustainability of natural
-                                    resources.</p>
-                               <!-- <a class="btn btn-primary btn-lg" href="#projects" role="button">Read more</a> -->
-                                <p class="text-center"> <br> <br>👇 Visit the links below and discover the projects 👇</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-3 col-lg-3 text-center m-3" v-for="project in projects" :key="project.id">
-                        <a :href="project.link" target="_blank" class="btn">
-                            <strong>{{ project.num_tutorial || project.title }}</strong>
-                        </a>
+                    <div class="col-12 col-md-6 col-lg-3 text-center m-3" v-for="project in projects" :key="project.id">
+                        <div class="card txt_glow cardlink project-card shadow-sm h-100">
+                            <!--  <img :src="getImagePath(project.image)" class="card-img-top img_card" alt="project.title"> -->
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">{{ project.num_tutorial }}</h5>
+                                <p class="card-text">{{ project.description }}</p>
+                                <a :href="project.link" target="_blank" class="btn btn_link mt-auto txt_glow">View project</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
+                <Slider></Slider>
+                
             </div>
         </section>
     </main>
-    <Slider></Slider>
     <Footer></Footer>
 </template>
 
 <style scoped>
-.img_card {
-    width: 30%;
-}
+/* .img_card {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+} */
 
 .icon_social {
     width: 10%;
 }
 
-a {
-    color: #00fbd5;;
-    text-decoration:none;
+.card {
+    border-radius: 15px;
 }
 
-a:hover {
-    color: #fbff00;
-    text-decoration:underline;
+
+.project-card .card-body {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Stile di default per display-1 */

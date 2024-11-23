@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "title": "🧭LUCAS 2022",
+        "num_tutorial": "🧭LUCAS 2022",
         "link": "https://junglekiosk.github.io/Eurostat_LUCASproject_2022/"
     },
     {
@@ -31,8 +31,8 @@
     },
     {
         "id": 6,
-        "num_tutorial": "🏔️RUSLE",
-        "link": "https://junglekiosk.github.io/rusle/"
+        "num_tutorial": "🌊 Hydro QGIS & GRASS",
+        "link": "https://junglekiosk.github.io/Freewat_GettingStarted/"
     },
     {
         "id": 7,
@@ -51,7 +51,7 @@
     },
     {
         "id": 10,
-        "num_tutorial": "♻️bioNRG",
-        "link": "https://bionrg-e12278c8d402.herokuapp.com/"
+        "num_tutorial": "🥨GanZuToll",
+        "link": "https://junglekiosk.github.io/GanZuToll/"
     }
 ]

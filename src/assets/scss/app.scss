@@ -30,19 +30,36 @@ body::-webkit-scrollbar-track {
     border-left: 1px solid $bg_body;
 }
 
+
+.cardlink{
+    background-color: $dark;
+}
+
 .btn_bg_green {
     background-color: transparent;
     color: #ffffff;
     border: none;
     cursor: pointer;
     overflow: hidden;
-  }
-  
-  .btn_bg_green:hover {
-    color: $glow;
-    text-decoration:underline;
-  }
+}
 
-  .txt_glow{
+.btn_link{
+    background-color: $btnlink;
+    font-weight: bold;
+    border: #ffffff63 solid 1px;
+}
+
+.btn_link:hover{
+    background-color: $glow;
+    color: $btnlink;
+    
+}
+
+.btn_bg_green:hover {
     color: $glow;
-  }
+    text-decoration: underline;
+}
+
+.txt_glow {
+    color: $glow;
+}

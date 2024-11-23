@@ -55,7 +55,7 @@ function startTyping() {
                                     Development Goals.</span> </a> <br>
                         </p>
                     </div>
-                    <div class="col-12 col-lg-4">
+                    <!-- <div class="col-12 col-lg-4">
                         <div class="circle">
                             <div class="inner-circle">
                                 <div class="border_rotate_over1"></div>
@@ -66,7 +66,7 @@ function startTyping() {
                             <div class="border_rotate_4"></div>
                             <div class="border_rotate_5"></div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
