@@ -1,198 +1,194 @@
 @use "./_variables.scss" as *;
 
-
-#about {
-
+body.link-mode {
+  #about {
     color: $light;
     font-size: 25px;
 
-
     .bg_intro {
-        padding: 2rem;
+      padding: 2rem;
 
-        .txt_initial {
-            font-size: 50px;
-        }
+      .txt_initial {
+        font-size: 50px;
+      }
 
-        .txt_fra {
-            color: $glow;
-            font-size: 50px;
-        }
+      .txt_fra {
+        color: $glowdark;
+        font-size: 50px;
+      }
 
-        .txt_thin {
-            font-size: 20px;
-            font-weight: bold;
-        }
+      .txt_thin {
+        font-size: 20px;
+        font-weight: bold;
+      }
 
-        .txt_swich {
-            color: $glow;
-            font-size: 40px;
-        }
+      .txt_swich {
+        color: $glowdark;
+        font-size: 40px;
+      }
 
-        a {
-            color: $glow;
-            text-decoration: none;
-        }
+      a {
+        color: $glowdark;
+        text-decoration: none;
+      }
 
-        .introduce p {
-            font-size: larger;
-        }
+      .introduce p {
+        font-size: larger;
+      }
 
-        .introduce p a {
-            color: white;
-            text-decoration-color: white;
-        }
+      .introduce p a {
+        color: white;
+        text-decoration-color: white;
+      }
     }
 
     .link_efct {
-        color: $glow;
-        text-decoration: none;
-        transition: color 2s, box-shadow 2s;
-        text-shadow: 0px 0px 30px $glow;
+      color: $glowdark;
+      text-decoration: none;
+      transition: color 2s, box-shadow 2s;
+      text-shadow: 0px 0px 30px $glowdark;
     }
 
     .link_efct:hover {
-        text-shadow: 0px 0px 10px $glow;
+      text-shadow: 0px 0px 10px $glowdark;
     }
-
+  }
 }
-
 
 .circle {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    border: 5px solid transparent;
-    overflow: hidden;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: 5px solid transparent;
+  overflow: hidden;
 
-    .border_rotate_over1 {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: inherit;
-        background: linear-gradient(90deg, transparent, rgba(46, 204, 248, 0.7)); /* Aggiungi sfumatura */
-        animation: rotate 20s linear infinite, fade-out 5s ease forwards;
-    }
+  .border_rotate_over1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(46, 204, 248, 0.7)
+    ); /* Aggiungi sfumatura */
+    animation: rotate 20s linear infinite, fade-out 5s ease forwards;
+  }
 
-    @keyframes rotate {
-        from {
-            transform: rotate(0deg);
-        }
-
-        to {
-            transform: rotate(360deg);
-        }
-    }
-
-
-    .border_rotate_2 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: inherit;
-        border: 1px solid transparent;
-        border-top: 5px solid #080051;
-        animation: rotate 25s linear infinite, fade-out 5s ease forwards;
-    }
-
-    @keyframes rotate {
-        from {
-            transform: rotate(0deg);
-        }
-
-        to {
-            transform: rotate(360deg);
-        }
-    }
-
-    .border_rotate_3 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: inherit;
-        border: 1px solid transparent;
-        border-top: 5px solid #0699c29f;
-        animation: rotate 28s linear infinite, fade-out 5s ease forwards;
-    }
-
-    @keyframes rotate {
-        from {
-            transform: rotate(0deg);
-        }
-
-        to {
-            transform: rotate(360deg);
-        }
-    }
-
-
-    .border_rotate_4 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: inherit;
-        border: 1px solid transparent;
-        border-top: 5px solid $glow;
-        animation: rotate 10s linear infinite, fade-out 5s ease forwards;
-    }
-
-
-    @keyframes rotate {
-        from {
-            transform: rotate(0deg);
-        }
-
-        to {
-            transform: rotate(360deg);
-        }
-    }
-
-    .border_rotate_5 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: inherit;
-        border: 1px solid transparent;
-        border-top: 3px solid #0699c2;
-        animation: rotateAntiClockwise 5s linear infinite, fade-out 5s ease forwards;
-
-    }
-
-    @keyframes rotateAntiClockwise {
-        from {
-            transform: rotate(0deg);
-        }
-
-        to {
-            transform: rotate(-360deg);
-        }
-    }
-}
-
-
-.fade-in {
-    opacity: 0;
-    animation: fade-in 2s ease forwards;
-}
-
-@keyframes fade-in {
+  @keyframes rotate {
     from {
-        opacity: 0;
+      transform: rotate(0deg);
     }
 
     to {
-        opacity: 1;
+      transform: rotate(360deg);
     }
+  }
+
+  .border_rotate_2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    border-top: 5px solid #080051;
+    animation: rotate 25s linear infinite, fade-out 5s ease forwards;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .border_rotate_3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    border-top: 5px solid #0699c29f;
+    animation: rotate 28s linear infinite, fade-out 5s ease forwards;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .border_rotate_4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    border-top: 5px solid $glowdark;
+    animation: rotate 10s linear infinite, fade-out 5s ease forwards;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .border_rotate_5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    border-top: 3px solid #0699c2;
+    animation: rotateAntiClockwise 5s linear infinite, fade-out 5s ease forwards;
+  }
+
+  @keyframes rotateAntiClockwise {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in 2s ease forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /* .bg_intro {

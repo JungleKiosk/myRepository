@@ -1,57 +1,57 @@
 [
     {
         "id": 0,
-        "num_tutorial": "🧭LUCAS 2022",
+        "num_tutorial": "LUCAS 2022",
         "link": "https://junglekiosk.github.io/Eurostat_LUCASproject_2022/"
     },
     {
         "id": 1,
-        "num_tutorial": "🌳Forest Suitability",
+        "num_tutorial": "Forest Suitability",
         "link": "https://junglekiosk.github.io/QGIS_forest_suitability/"
     },
     {
         "id": 2,
-        "num_tutorial": "🛰️NDVI & CIgreen",
+        "num_tutorial": "NDVI & CIgreen",
         "link": "https://junglekiosk.github.io/QGIS_RS_NDVI_CIgreen/"
     },
     {
         "id": 3,
-        "num_tutorial": "♨️Soil Degradation",
+        "num_tutorial": "Soil Degradation",
         "link": "https://junglekiosk.github.io/QGIS_SoilDegradation/"
     },
     {
         "id": 4,
-        "num_tutorial": "🌰Chestnut Zoning",
+        "num_tutorial": "Chestnut Zoning",
         "link": "https://junglekiosk.github.io/QGIS_zoning/"
     },
     {
         "id": 5,
-        "num_tutorial": "⛏️Soil Texture map",
+        "num_tutorial": "Soil Texture map",
         "link": "https://junglekiosk.github.io/QGIS_SoilTexture/"
     },
     {
         "id": 6,
-        "num_tutorial": "🌊 Hydro QGIS & GRASS",
+        "num_tutorial": "Hydro QGIS & GRASS",
         "link": "https://www.youtube.com/playlist?list=PLXUPdtoR2ulhJICR6vWhyu6jiJQ1SsTzR"
     },
     {
         "id": 7,
-        "num_tutorial": "💧FREEWAT-Q3",
+        "num_tutorial": "FREEWAT-Q3",
         "link": "https://junglekiosk.github.io/Freewat_GettingStarted/"
     },
     {
         "id": 8,
-        "num_tutorial": "♻️bioNRG",
+        "num_tutorial": "bioNRG",
         "link": "https://junglekiosk.github.io/dNRG/"
     },
     {
         "id": 9,
-        "num_tutorial": "🍃VueLeaflet",
+        "num_tutorial": "VueLeaflet",
         "link": "https://junglekiosk.github.io/VueLeaflet/"
     },
     {
         "id": 10,
-        "num_tutorial": "🥨GanZuToll",
+        "num_tutorial": "GanZuToll",
         "link": "https://junglekiosk.github.io/GanZuToll/"
     }
 ]
