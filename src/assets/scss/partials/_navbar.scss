@@ -29,11 +29,15 @@
     transition: background-color 0.3s, color 0.3s;
   }
 
-  a:hover,
+  a:hover{
+    color: $glowdark;
+    text-decoration: underline 3px solid $glowlight;
+    border-radius: 2px;
+  }
   a:focus,
   a:active {
-    color: #34495e;
-    background-color: #ffffff;
+    color: $glowdark;
+    background-color: $glowlight;
     border-radius: 2px;
   }
 }

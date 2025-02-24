@@ -37,7 +37,7 @@ export default {
                 </div>
                 <!-- test dist -->
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-6 col-lg-3 text-center m-3" v-for="project in projects" :key="project.id">
+                    <div class="col-12 col-md-6 col-lg-2 text-center m-3" v-for="project in projects" :key="project.id">
                         <div class="card txt_glow cardlink project-card shadow-sm h-100">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">{{ project.num_tutorial }}</h5>
