@@ -1,40 +1,22 @@
 <script>
+import Navbar from "./components/partials/Navbar.vue";
+import Footer from "./components/partials/Footer.vue";
 
+
+export default {
+  components: {
+    Navbar, Footer
+  },
+};
 </script>
 
 
 <template>
-
-
-
-  <div class="container-fluid bg-dark py-4">
-
-    <div class="row justify-content-center ">
-      <div class="col-12 col-lg-3 text-center text-center">
-        <!-- Utilizza RouterLink per creare bottoni -->
-        <RouterLink active-class="active" to="/">
-          <button class="rounded-2 btn_bg_green mx-1">
-            <span>Home</span>
-          </button>
-        </RouterLink>
-
-<!--         <RouterLink active-class="active" to="/getstart">
-          <button class="rounded-2 btn_bg_green mx-1">
-            <span>Get Start</span>
-          </button>
-        </RouterLink> -->
-
-        <RouterLink active-class="active" to="/about">
-          <button class="rounded-2 btn_bg_green mx-1">
-            <span>About me</span>
-          </button>
-        </RouterLink>
-      </div>
-    </div>
+  <div id="app">
+    <Navbar />
+    <RouterView />
+    <Footer />
   </div>
-  <RouterView />
 </template>
 
-<style>
-
-</style>
+<style></style>

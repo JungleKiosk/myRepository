@@ -1,9 +1,7 @@
 <script>
 import { ref } from "vue";
 import { useRouter } from "vue-router";
-import Footer from '../components/FooterVue.vue';
-import Slider from "../components/SliderVue.vue";
-
+import Slider from "../components/partials/SliderVue.vue";
 import projectsData from "../data/data_projects.json";
 
 export default {
@@ -13,7 +11,7 @@ export default {
         }
     },
     components: {
-        Footer, Slider
+        Slider
     },
     setup() {
         const projects = ref(projectsData);
@@ -40,7 +38,7 @@ export default {
                         
                         <div class="jumbotron p-5 rounded-3">
                             <div class="container">
-                                <h1 id="intro-title" class="display-1 txt_glow">myProjects</h1>
+                                <h1 id="intro-title" class="display-1 txt_glow text-center">myProjects</h1>
                                 <hr class="mt-4">
                             </div>
                         </div>
@@ -68,11 +66,7 @@ export default {
 </template>
 
 <style scoped>
-/* .img_card {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-} */
+
 
 .icon_social {
     width: 10%;
