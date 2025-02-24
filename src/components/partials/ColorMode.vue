@@ -1,8 +1,8 @@
 <template>
     <div class="theme-toggle">
-        <button @click="toggleTheme" class="theme-button rounded-5">
-            {{ isDarkMode ? 'LMode' : 'DMode' }}
-        </button>
+        <a @click="toggleTheme" class="rounded-5">
+            {{ isDarkMode ? '💡' : '😎' }}
+        </a>
     </div>
 </template>
 
@@ -41,6 +41,7 @@ export default {
 </script>
 
 <style scoped>
+
 
 
 </style>

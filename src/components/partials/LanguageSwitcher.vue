@@ -22,10 +22,10 @@ onMounted(() => {
 
 <template>
   <div class="language-switcher">
-    <button class="theme-button rounded-5" @click="toggleLanguage">
+    <a class="" @click="toggleLanguage">
       <span v-if="currentLang === 'it'">EN🌍</span>
       <span v-else>IT🍕</span>
-    </button>
+    </a>
   </div>
 </template>
 
