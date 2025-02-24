@@ -10,9 +10,6 @@ const messages = {
       title: "Projects",
     },
   },
-  /* ************************************ */
-  /* ******  ITALIANO******************** */
-  /* ************************************ */
   it: {
     navbar: {
       home: "Home",
@@ -24,9 +21,13 @@ const messages = {
   },
 };
 
+const userLocale = localStorage.getItem("language");
+const locale = userLocale && ['en', 'it'].includes(userLocale) ? userLocale : 'en';
+
 const i18n = createI18n({
-  locale: localStorage.getItem("language") || "en",
-  fallbackLocale: "en",
+  legacy: false, // Usa API Composition se necessario
+  locale: locale, // Lingua principale
+  fallbackLocale: "en", // Se una chiave manca, usa l'inglese
   messages,
 });
 
