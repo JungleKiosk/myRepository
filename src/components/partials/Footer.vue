@@ -1,8 +1,6 @@
 <script setup>
 
-
 </script>
-
 
 <template>
   <footer id="footer" class="p-5 bg-dark">
@@ -11,11 +9,11 @@
       <div class="col-sm-4 col-md-3 text-center">
         <h3 class="">Follow me</h3>
         <a target="_blank" href="https://github.com/JungleKiosk"><img class="icon_social mx-2"
-            src="../assets/img/logo/github_footer.svg" alt=""></a>
+            src="../../assets/img/logo/github_footer.svg" alt=""></a>
         <a target="_blank" href="https://www.linkedin.com/in/francescominutella/"><img class="icon_social mx-2"
-            src="../assets/img/logo/linkedin_footer.svg" alt=""></a>
+            src="../../assets/img/logo/linkedin_footer.svg" alt=""></a>
         <a target="_blank" href="https://www.youtube.com/@JungleKiosk"><img class="icon_social mx-2"
-            src="../assets/img/logo/youtube_footer.svg" alt=""></a>
+            src="../../assets/img/logo/youtube_footer.svg" alt=""></a>
       </div>
 
     </div>

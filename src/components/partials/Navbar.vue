@@ -14,8 +14,8 @@ export default {
 <template>
   <nav class="navbar justify-content-center">
     <ul>
-      <li><router-link to="/">Home</router-link></li>
-      <li><router-link to="/about">About me</router-link></li>
+      <li><router-link to="/">{{ $t('navbar.home') }}</router-link></li>
+      <li><router-link to="/about">{{ $t('navbar.aboutme') }}</router-link></li>
       <li><ColorMode /></li>
       <li><LanguageSwitcher /></li>
     </ul>

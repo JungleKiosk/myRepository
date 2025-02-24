@@ -1,6 +1,6 @@
 <script>
 import { ref, watchEffect, onMounted } from "vue";
-import { imgProj } from "../data/img_proj.js";
+import { imgProj } from "../../data/img_proj";
 
 export default {
     props: {
@@ -31,7 +31,7 @@ export default {
     },
     methods: {
         getImagePath: function (name) {
-            return new URL(`../assets/img/logo/${name}`, import.meta.url).href;
+            return new URL(`../../assets/img/logo/${name}`, import.meta.url).href;
         },
     },
 };
@@ -49,7 +49,7 @@ export default {
                     :style="{ transform: `translateX(-${currentIndex * 100}%)`, opacity: currentIndex === index ? 1 : 0, transition: 'opacity 0.5s ease-in-out' }">
 
                     <div class="image-container">
-                        <img :src="getImagePath(imgproj.img)" alt="Goal Image">
+                        <img :src="getImagePath(imgproj.img)" alt="stack">
                     </div>
                 </div>
             </div>

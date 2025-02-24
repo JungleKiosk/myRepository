@@ -2,7 +2,6 @@
 import { ref } from "vue";
 import { useRoute } from "vue-router";
 import projectsData from "../data/data_projects.json";
-import Footer from '../components/FooterVue.vue';
 
 export default {
   name: "ProjectsView",
@@ -16,7 +15,7 @@ export default {
     };
   },
     components: {
-        Footer
+        
     },
   methods: {
     getImagePath: function (name) {
@@ -50,7 +49,6 @@ export default {
       </div>
     </div>
   </div>
-  <Footer></Footer>
 </template>
 
 <style scoped>

@@ -23,7 +23,6 @@ onMounted(() => {
 <template>
   <div class="language-switcher">
     <button class="theme-button rounded-5" @click="toggleLanguage">
-      <!-- Mostra la bandiera opposta alla lingua corrente -->
       <span v-if="currentLang === 'it'">EN🌍</span>
       <span v-else>IT🍕</span>
     </button>

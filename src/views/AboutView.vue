@@ -1,6 +1,5 @@
 <script setup>
 import { ref, onMounted } from 'vue';
-import Footer from '../components/FooterVue.vue';
 
 const introVisible = ref(false);
 const textToShow = ref('');
@@ -71,7 +70,6 @@ function startTyping() {
             </div>
         </section>
     </main>
-    <Footer></Footer>
 </template>
 
 

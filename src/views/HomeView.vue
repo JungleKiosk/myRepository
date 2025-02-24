@@ -1,8 +1,7 @@
 <script>
-import { ref } from "vue";
-import { useRouter } from "vue-router";
 import Slider from "../components/partials/SliderVue.vue";
-import projectsData from "../data/data_projects.json";
+import Cards from "../components/Cards.vue";
+
 
 export default {
     name: "Home",
@@ -11,15 +10,7 @@ export default {
         }
     },
     components: {
-        Slider
-    },
-    setup() {
-        const projects = ref(projectsData);
-        const router = useRouter();
-        return {
-            projects,
-            router,
-        };
+        Slider, Cards
     },
     methods: {
         getImagePath: function (name) {
@@ -30,39 +21,10 @@ export default {
 </script>
 
 <template>
-    <main>
-        <section class="jumbotron">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-12 align-content-center introduce">
-                        
-                        <div class="jumbotron p-5 rounded-3">
-                            <div class="container">
-                                <h1 id="intro-title" class="display-1 txt_glow text-center">myProjects</h1>
-                                <hr class="mt-4">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- test dist -->
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-6 col-lg-3 text-center m-3" v-for="project in projects" :key="project.id">
-                        <div class="card txt_glow cardlink project-card shadow-sm h-100">
-                            <!--  <img :src="getImagePath(project.image)" class="card-img-top img_card" alt="project.title"> -->
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">{{ project.num_tutorial }}</h5>
-                                <p class="card-text">{{ project.description }}</p>
-                                <a :href="project.link" target="_blank" class="btn btn_link mt-auto txt_glow">View project</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <Slider></Slider>
-                
-            </div>
-        </section>
+    <main class="mt-5">
+        <Cards></Cards>
+        <Slider></Slider>
     </main>
-    <Footer></Footer>
 </template>
 
 <style scoped>
