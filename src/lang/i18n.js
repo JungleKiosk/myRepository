@@ -5,6 +5,7 @@ const messages = {
     navbar: {
       home: "Home",
       aboutme: "About me",
+      tools: "Tools",
     },
     home: {
       title: "Projects",
@@ -14,6 +15,7 @@ const messages = {
     navbar: {
       home: "Home",
       aboutme: "About me",
+      tools: "Tools",
     },
     home: {
       title: "Progetti",

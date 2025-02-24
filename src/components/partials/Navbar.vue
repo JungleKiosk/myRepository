@@ -16,6 +16,7 @@ export default {
     <ul>
       <li><router-link to="/">{{ $t('navbar.home') }}</router-link></li>
       <li><router-link to="/about">{{ $t('navbar.aboutme') }}</router-link></li>
+      <li><router-link to="/tools">{{ $t('navbar.tools') }}</router-link></li>
       <li><LanguageSwitcher /></li>
       <li><ColorMode /></li>
     </ul>

@@ -1,6 +1,7 @@
 <script>
 import Slider from "../components/partials/SliderVue.vue";
 import Cards from "../components/Cards.vue";
+import Tools from "./Tools.vue";
 
 
 export default {
@@ -10,7 +11,7 @@ export default {
         }
     },
     components: {
-        Slider, Cards
+        Slider, Cards, Tools
     },
     methods: {
         getImagePath: function (name) {
@@ -24,6 +25,7 @@ export default {
     <main class="mt-5">
         <Cards></Cards>
         <Slider></Slider>
+        <Tools></Tools>
     </main>
 </template>
 
