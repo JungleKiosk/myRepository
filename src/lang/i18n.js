@@ -4,7 +4,7 @@ const messages = {
   en: {
     navbar: {
       home: "Home",
-      aboutme: "About me",
+      aboutme: "About",
       tools: "Tools",
     },
     home: {
@@ -14,7 +14,7 @@ const messages = {
   it: {
     navbar: {
       home: "Home",
-      aboutme: "About me",
+      aboutme: "About",
       tools: "Tools",
     },
     home: {
